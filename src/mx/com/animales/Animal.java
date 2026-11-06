@@ -1,0 +1,16 @@
+public abstract class Animal {
+
+    private String nombre;
+    private int edad;
+
+    public Animal(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
+    public void mostrarInformacion() {
+        System.out.print("Nombre: " + nombre + " | Edad: " + edad + " | ");
+    }
+
+    public abstract void hacerSonido();
+}
